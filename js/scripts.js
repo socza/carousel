@@ -44,7 +44,7 @@ $(function(){
 
 	function changeSlide() {
 	
-	   	carouselList.animate({'marginLeft': -400}, 0, moveLeft);
+	   	carouselList.animate({'marginLeft': -400}, 500, moveLeft);
 	
 	}
 
