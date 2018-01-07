@@ -1,7 +1,8 @@
 #carousel {
 	position: absolute;
-	width: 400px;
-	height: 300px;
+	width: 100%;
+	max-width: 400px;
+	max-height: 300px;
 	margin: auto;
 	top: 0;
     bottom: 0;
@@ -13,15 +14,14 @@
 	overflow: hidden;
 }
 
-ul {
+#carousel ul {
 	position: absolute;
 	width: 2000px;
- 	height: auto;
+ 	margin: 0;
  	padding: 0;
-	
 }
 
-li {
+#carousel ul li {
 	list-style-type: none;
 	float: left;
 	margin: 0;
@@ -29,4 +29,39 @@ li {
 	right: 0;
   	bottom: 0;
   	left: 0;
+}
+
+#carousel ul li img {
+	width: 400px;
+	height: 300px;
+}
+
+.previous {
+	position: absolute;
+	text-decoration: none;
+	z-index: 1;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	left: 10px;
+	top: calc(45%);
+}
+.next {
+	position: absolute;
+	text-decoration: none;
+	z-index: 1;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	left: calc(100% - 25px);
+	top: calc(45%);
+}
+.circle {
+	position: absolute;
+	text-decoration: none;
+	z-index: 1;
+	color: black;
+	left: calc(10% - 50px);
+	bottom: calc(45%);
+	font-weight: bold;
 }
