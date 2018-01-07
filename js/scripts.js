@@ -3,9 +3,9 @@ $(function(){
 	$('p').css({
 	
 		"text-align": "center",
-		"color": "red"}
-	
-	);
+		"color": "red"
+
+	});
 		
 	$('a').hover(function(){
 		
@@ -54,7 +54,7 @@ $(function(){
 	   	var lastItem = carouselList.find("li:last");
 	    	
 	   	firstItem.before(lastItem);
-		carouselList.animate({'marginLeft': 0}, 0);
+		carouselList.animate({'marginLeft': 0});
 
 	}
 	

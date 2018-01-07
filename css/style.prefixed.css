@@ -36,7 +36,7 @@
 	height: 300px;
 }
 
-.previous {
+.left-cursor {
 	position: absolute;
 	text-decoration: none;
 	z-index: 1;
@@ -45,21 +45,25 @@
 	font-weight: bold;
 	left: 10px;
 	top: calc(45%);
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 25px;
 }
-.next {
+.right-cursor {
 	position: absolute;
 	text-decoration: none;
 	z-index: 1;
 	color: black;
 	font-size: 30px;
 	font-weight: bold;
-	left: calc(100% - 25px);
+	left: calc(100% - 35px);
 	top: calc(45%);
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 25px;
 }
 .circle {
 	position: absolute;
 	text-decoration: none;
-	z-index: 1;
+	z-index: 2;
 	color: black;
 	left: calc(10% - 50px);
 	bottom: calc(45%);
