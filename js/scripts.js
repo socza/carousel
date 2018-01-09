@@ -1,12 +1,5 @@
 $(function(){ 
 	
-	$('p').css({
-	
-		"text-align": "center",
-		"color": "red"
-
-	});
-		
 	$('a').hover(function(){
 		
 			$(this).css("transform", "scale(1.50)");
@@ -19,14 +12,12 @@ $(function(){
 	
   	$('.left-cursor').on("click", function(event) {
 			
-		// console.log("You clicked the left-coursor!");
 		changeSlideLeft();
 		
 	});
 
   	$('.right-cursor').on("click", function(event) {
 		
-		// console.log("You clicked the right-coursor!");
 		changeSlideRight();
 	
 	});

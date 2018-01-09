@@ -60,12 +60,3 @@
 	background-color: rgba(255, 255, 255, 0.2);
 	width: 25px;
 }
-.circle {
-	position: absolute;
-	text-decoration: none;
-	z-index: 2;
-	color: black;
-	left: calc(10% - 50px);
-	bottom: calc(45%);
-	font-weight: bold;
-}
